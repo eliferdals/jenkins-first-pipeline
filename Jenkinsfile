@@ -8,6 +8,7 @@
 
 pipeline {
     agent any
+<<<<<<< HEAD
         stages {
 	        stage('Environment Check') {
 		            steps {
@@ -23,3 +24,14 @@ pipeline {
 																		        }
 																			    }
 																			    }
+=======
+    stages {
+        stage('build') {
+            steps {
+                echo "Webhook ile tetiklendi!"
+                sh 'date'
+            }
+        }
+    }
+}
+>>>>>>> bd1b6c1f02166210958462d63201aca97b93a6b5
