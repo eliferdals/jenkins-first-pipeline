@@ -7,5 +7,4 @@ pipeline {
 					                    sh 'date'
 							                }
 									        }
-										    }
 										    }}
